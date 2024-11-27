@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروفیلم</title>
+    <link rel="stylesheet" href="F:\my rezome\my sites\pro_film\css_main_page\pro_film.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="/my rezome/my sites/pro_film/pictures/movie-svgrepo-com.svg">
+</head>
+
+<body class="bg_body p-0 container-fluid d-flex width position-relative min-vh-100">
+    <div class="w-100 hight_inherit position-relative">
+        <!-------------------------navbar md sm xs---------------------------- -->
+        <div class="position-absolute  z-3 w-100 ">
+            <nav class="navbar navbar-expand fixed-top bg_blur d_navbar hight_navbar d-lg-none p-md-2 p-0">
+                <div class="d-flex pb-md-1 w-100 h-100 justify-content-between align-items-center p-1 pb-0">
+                    <div class="navbar-brand p-0 d-inline-block me-1">
+                        <button type="button" class="btn width_btn p-0" data-bs-toggle="collapse"
+                            data-bs-target="#menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                            </svg>
+                        </button>
+                        <span class="d-sm-inline-block d-md-inline-block d-inline-block">
+                            <h4 class="fs-md-3 fs-sm-4 ">پروفیلم</h4>
+                        </span>
+                    </div>
+                    <form action="" class="d-inline-block w-50 mb-1 mb-sm-1 mb-md-0 hight_form rounded-pill ">
+                        <div class="input-group w-100 h-100 rounded-pill focus">
+                            <input type="text"
+                                class="form-control input h-100 bg_search rounded-start-0 border-0 rounded-end-pill"
+                                name="search" placeholder="جستجو">
+                            <div
+                                class="bg_search_icon h-100 rounded-0 d-flex align-items-center justify-content-center rounded-start-pill">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+            <div class="collapse navbar-collapse collapse w-100 fixed-top margin_top_collapse d-lg-none" id="menu">
+                <ul class="navbar-nav w-100 p-0 bg_blur d-flex flex-column rounded-bottom-3" style="list-style: none;">
+                    <li class="nav-item w-100  py-2 pe-3 nav_item ">
+                        <a class="nav-link item_nav fs-4 fs-md-3" href="">
+                            <span class="ps-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-house" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                                </svg>
+                            </span>
+                            خانه</a>
+                    </li>
+                    <li class="nav-item w-100  py-2 pe-3 nav_item">
+                        <a class="nav-link item_nav fs-4 fs-md-3" href="F:\my rezome\my sites\pro_film\html_pack_page\pack_page.html" target="_parent">
+                            <span class="ps-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-list-ul" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                </svg>
+                            </span>
+                            ژانر و دسته بندی</a>
+                    </li>
+                    <li class="nav-item w-100  py-2 rounded-bottom-2 pe-3 nav_item ">
+                        <a class="nav-link item_nav fs-4 fs-md-3" href="F:\my rezome\my sites\pro_film\login_page_html\login_page.html" target="_parent">
+                            <span class="ps-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                                </svg>
+                            </span>
+                            ورود</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- --------------------asid--------------------------- -->
+        <aside
+            class="col-lg-2 d-lg-block d-sm-none d-md-none d-none bg_aside vh-100 p-0 mb-0 position-fixed z-1">
+            <nav class="navbar navbar-expand w-100 d-flex h-100 flex-column">
+                <div class="col-lg-2 fixed-top">
+                    <div class="navbar-brand d-flex gap-1 justify-content-center w-100 align-items-center mt-3 me-0">
+                        <span>
+                            <svg class="w_svg orang" viewBox="0 -2 32 32" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000" stroke="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#CCCCCC" stroke-width="0.192"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>movie-recorder</title>
+                                    <desc>Created with Sketch Beta.</desc>
+                                    <defs> </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                        sketch:type="MSPage">
+                                        <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                            transform="translate(-206.000000, -519.000000)" fill="#ffffff">
+                                            <path
+                                                d="M225,531.012 C222.232,531.012 219.989,528.768 219.989,526 C219.989,523.232 222.232,520.989 225,520.989 C227.768,520.989 230.011,523.232 230.011,526 C230.011,528.768 227.768,531.012 225,531.012 L225,531.012 Z M212,531 C209.791,531 208,529.209 208,527 C208,524.791 209.791,523 212,523 C214.209,523 216,524.791 216,527 C216,529.209 214.209,531 212,531 L212,531 Z M236,531 L230,535 C230,533.786 229.448,532.712 228.594,531.979 C230.626,530.753 232,528.546 232,526 C232,522.134 228.866,519 225,519 C221.134,519 218,522.134 218,526 C218,527.962 218.812,529.729 220.111,531 L216.443,531 C217.4,529.937 218,528.544 218,527 C218,523.687 215.313,521 212,521 C208.687,521 206,523.687 206,527 C206,528.809 206.816,530.41 208.082,531.511 C206.847,532.191 206,533.49 206,535 L206,543 C206,545.209 207.791,547 210,547 L226,547 C228.209,547 230,545.209 230,543 L236,547 C237.104,547 238,546.104 238,545 L238,533 C238,531.896 237.104,531 236,531 L236,531 Z"
+                                                id="movie-recorder" sketch:type="MSShapeGroup"> </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </span>
+                        <h1>پروفیلم</h1>
+                    </div>
+                    <div class="text-start ms-1 w-100 h-100 position-relative">
+                        <ul class="navbar-nav d-flex flex-column border-2 pe-1">
+                            <li class="nav-item item_hover d-flex align-items-center border-2">
+                                <a class="nav-link item_nav fs-6" href="">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path
+                                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                        </svg>
+                                    </span>
+                                    جستجو</a>
+                            </li>
+                            <li class="nav-item item_hover d-flex align-items-center border-2">
+                                <a class="nav-link item_nav fs-6" href="F:\my rezome\my sites\pro_film\html_main_page\pro_film.html">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                                        </svg>
+                                    </span>
+                                    خانه</a>
+                            </li>
+                            <li class="nav-item item_hover d-flex align-items-center border-2 ">
+                                <a class="nav-link item_nav fs-6" href="F:\my rezome\my sites\pro_film\html_pack_page\pack_page.html" target="_parent">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                        </svg>
+                                    </span>ژانر و دسته بندی</a>
+                            </li>
+                            <li class="nav-item item_hover d-flex align-items-center border-2">
+                                <a class="nav-link item_nav fs-6" href="F:\my rezome\my sites\pro_film\login_page_html\login_page.html" target="_parent">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                                        </svg>
+                                    </span>
+                                    ورود</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container_btn position-fixed z-2 bottom-0 mb-5">
+                    <button class="btn px-4 py-3 rounded-pill"> خرید اشتراک</button>
+                </div>
+
+            </nav>
+        </aside>
+        <!-- ----------------------header--------------------------- -->
+        <div
+            class="w_main margin_top mt-lg-0 col-12 col-lg-10 col-md-12 col-sm-12 p-0 position-absolute z-1 start-0 w-md-100">
+            <header class=" w-100">
+                <div class="h-100">
+                    <div class="carousel slide carousel-fade hight_carosel w-100" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item w-100 active h-100 " data-bs-interval="5000">
+                                <div>
+                                    <img class="w-100 h-100 object-fit-cover d-block"
+                                        src="https://tv.filmnet.ir/images/11/fb/11fbad006d8b4c2580de7e7d8494ce67.jpg?w=800"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="carousel-caption w-25 pe-3 pb-0 end-0 mb-0 mb-sm-2 mb-md-3 mb-lg4 text-light">
+                                    <Ul class="d-flex w-100 justify-content-center m-0 p-0 text-end flex-column"
+                                        style="list-style: none;">
+                                        <li class="font_slide ">
+                                            <h3 class="font_slide fs-6 fs-sm-4 pb-lg-4 fs-md-3 fs-lg-1 text-nowrap">
+                                                خجالت
+                                                نکش 2</h3>
+                                        </li>
+                                        <li>
+                                            <div class="bg_caption w-100 rounded-pill p-lg-1 px-5">
+                                                <p
+                                                    class="font_slide  d-flex flex-shrink-0 text-nowrap justify-content-center py-2 m-0">
+                                                    سینما
+                                                    آنلاین</p>
+                                            </div>
+
+                                        </li>
+                                    </Ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item w-100 h-100 " data-bs-interval="5000">
+                                <div>
+                                    <img class="w-100 h-100 object-fit-cover d-block"
+                                        src="https://tv.filmnet.ir/images/a5/85/a5854721a4da4d8e881039f029d7c6b5.jpg?w=800"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="carousel-caption w-25 pe-3 pb-0 end-0 mb-0 mb-sm-2 mb-md-3 mb-lg4 text-light">
+                                    <Ul class="d-flex w-100 justify-content-center m-0 p-0 text-end flex-column"
+                                        style="list-style: none;">
+                                        <li>
+                                            <h3 class="font_slide  fs-6 fs-sm-4 pb-lg-4 fs-md-3 fs-lg-1 text-nowrap">
+                                                گردن زنی</h3>
+                                        </li>
+                                        <li class="w-100 d-flex">
+                                            <div class="bg_caption w-100 rounded-pill p-lg-1 px-5">
+                                                <p
+                                                    class="font_min_slide d-flex flex-shrink-0 text-nowrap justify-content-center py-2 m-0">
+                                                    جمعه ها 12 ظهر
+                                                </p>
+                                            </div>
+
+                                        </li>
+                                    </Ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item w-100 h-100 " data-bs-interval="5000">
+                                <div>
+                                    <img class="w-100 h-100 object-fit-cover d-block"
+                                        src="https://tv.filmnet.ir/images/cb/01/cb01c696860b4b54917a86cc3b0c0b54.jpg?w=800"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="carousel-caption w-25 pe-3 pb-0 end-0 mb-0 mb-sm-2 mb-md-3 mb-lg4 text-light">
+                                    <Ul class="d-flex w-100 justify-content-center m-0 p-0 text-end flex-column"
+                                        style="list-style: none;">
+                                        <li>
+                                            <h3 class="font_slide  fs-6 fs-sm-4 pb-lg-4 fs-md-3 fs-lg-1 text-nowrap">
+                                                مصائب شیرین
+                                            </h3>
+                                        </li>
+                                        <li class="w-100 d-flex">
+                                            <div class="bg_caption w-100 rounded-pill p-lg-1 px-5">
+                                                <p
+                                                    class="font_slide  d-flex flex-shrink-0 text-nowrap justify-content-center py-2 m-0">
+                                                    سینما
+                                                    آنلاین</p>
+                                            </div>
+
+                                        </li>
+                                    </Ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item w-100 h-100 " data-bs-interval="5000">
+                                <div>
+                                    <img class="w-100 h-100 object-fit-cover d-block"
+                                        src="https://tv.filmnet.ir/images/f3/bc/f3bce7c742bb4db8b21f6353c106d5e9.jpg?w=800"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="carousel-caption w-25 pe-3 pb-0 end-0 mb-0 mb-sm-2 mb-md-3 mb-lg4 text-light">
+                                    <Ul class="d-flex w-100 justify-content-center m-0 p-0 text-end flex-column"
+                                        style="list-style: none;">
+                                        <li>
+                                            <h3 class="font_slide  fs-6 fs-sm-4 pb-lg-4 fs-md-3 fs-lg-1 text-nowrap">آبی
+                                                روشن
+                                            </h3>
+                                        </li>
+                                        <li class="w-100 d-flex">
+                                            <div class="bg_caption w-100 rounded-pill p-lg-1 px-5">
+                                                <p
+                                                    class="font_slide  d-flex flex-shrink-0 text-nowrap justify-content-center py-2 m-0">
+                                                    سینما
+                                                    آنلاین</p>
+                                            </div>
+
+                                        </li>
+                                    </Ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item w-100 h-100 " data-bs-interval="5000">
+                                <div>
+                                    <img class="w-100 h-100 object-fit-cover d-block"
+                                        src="https://tv.filmnet.ir/images/5a/e3/5ae39a95e0444ae6a3c9d41b8e1c32b9.jpg?w=800"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="carousel-caption w-25 pe-3 pb-0 end-0 mb-0 mb-sm-2 mb-md-3 mb-lg4 text-light">
+                                    <Ul class="d-flex w-100 justify-content-center m-0 p-0 text-end flex-column"
+                                        style="list-style: none;">
+                                        <li>
+                                            <h3 class="font_slide  fs-6 fs-sm-4 pb-lg-4 fs-md-3 fs-lg-1 text-nowrap">
+                                                آسمان غرب</h3>
+                                        </li>
+                                        <li class="w-100 d-flex">
+                                            <div class="bg_caption w-100 rounded-pill p-lg-1 px-5">
+                                                <p
+                                                    class="font_slide  d-flex flex-shrink-0 text-nowrap justify-content-center py-2 m-0">
+                                                    سینما
+                                                    آنلاین</p>
+                                            </div>
+
+                                        </li>
+                                    </Ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-------------------------main------------------------------->
+            <main class="d-flex justify-content-md-center mt-sm-3 mt-md-4 mt-lg-5 mb-5">
+                <div class='container-fluid w-md-100 m-md-0'>
+                    <div class="mb-3 d-flex justify-content-between">
+                        <h4 class="fw-bold font_size">ویژه</h4>
+                    </div>
+                    <div class="row d-flex flex-row align-items-center">
+                        <div class="text-wrap">
+                            <ul class="d-flex flex-row gap-2 flex-wrap justify-content-center p-0" style="list-style: none;">
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\serial_pages\gardanzani.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/ff/e5/ffe58df5dbda42d18d2a70b48a16a890.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="text-end position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> سریال گردن زنی</p>
+                                                <p>1403 / ایران - درام</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\serial_pages\daryosh.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/34/3e/343e42741b6041aebeb601be4e2e3522.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> سریال داریوش</p>
+                                                <p>1403 / ایران - اجتماعی</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\serial_pages\dar_entehaie_shab.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/55/3c/553cf6161bab4d809f779512de3398a9.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> سریال در انتهای شب</p>
+                                                <p>1403 / ایران - درام</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\serial_pages\afie_tahran.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/48/a1/48a1ff29c70c4d2db06e69f42928f1c1.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> سریال افعی تهران </p>
+                                                <p>1402 / ایران - اجتماعی</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\serial_pages\shabe_ahangi.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/b3/8c/b38c3b91775a4c609b27cd127ee5ce54.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> شب آهنگی</p>
+                                                <p>1400 / ایران - کمدی</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\html_play_page\khejalat_nakesh.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/aa/b5/aab57a4724184283afe00f3f917d69ee.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> خجالت نکش 2</p>
+                                                <p>1403 / ایران - کمدی</p>
+                                            </div>
+                                        </div>
+                                        <span
+                                            class="font_size_card text-nowrap text-light w-50 pe-1 bg-danger position-absolute top-0 end-0 rounded-start-pill ">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .039-.063v-.009l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003a.2.2 0 0 0-.039-.064.9.9 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.039.063v.003l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.5.5 0 0 0-.118-.115l-.025-.012L1.5 6.5h-.003a.2.2 0 0 0-.064.039.9.9 0 0 0-.193.27C1.1 7.09 1 7.51 1 8s.1.912.24 1.19c.07.14.14.225.194.271a.2.2 0 0 0 .063.039H1.5l.006-.001.025-.012a.5.5 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115l.025.012.006.001h.003a.2.2 0 0 0 .064-.039.9.9 0 0 0 .193-.27c.14-.28.24-.7.24-1.191s-.1-.912-.24-1.19a.9.9 0 0 0-.194-.271.2.2 0 0 0-.063-.039H14.5l-.006.001-.025.012a.5.5 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557z" />
+                                                </svg>
+                                            </span>
+                                            سینما آنلاین
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\html_play_page\masaeb_shirin_2.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/ee/1a/ee1aecd859f64fa6b7e8c8158c61d4a0.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold">مصائب شیرین 2</p>
+                                                <p>1397 / ایران - درام</p>
+                                            </div>
+                                        </div>
+                                        <span
+                                            class="font_size_card text-nowrap text-light w-50 pe-1 bg-danger position-absolute top-0 end-0 rounded-start-pill ">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .039-.063v-.009l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003a.2.2 0 0 0-.039-.064.9.9 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.039.063v.003l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.5.5 0 0 0-.118-.115l-.025-.012L1.5 6.5h-.003a.2.2 0 0 0-.064.039.9.9 0 0 0-.193.27C1.1 7.09 1 7.51 1 8s.1.912.24 1.19c.07.14.14.225.194.271a.2.2 0 0 0 .063.039H1.5l.006-.001.025-.012a.5.5 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115l.025.012.006.001h.003a.2.2 0 0 0 .064-.039.9.9 0 0 0 .193-.27c.14-.28.24-.7.24-1.191s-.1-.912-.24-1.19a.9.9 0 0 0-.194-.271.2.2 0 0 0-.063-.039H14.5l-.006.001-.025.012a.5.5 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557z" />
+                                                </svg>
+                                            </span>
+                                            سینما آنلاین
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\html_play_page\hotel.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/46/30/463048b7705b42449e87a1f39ba892c6.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> هتل</p>
+                                                <p>1402 / ایران - کمدی</p>
+                                            </div>
+                                        </div>
+                                        <span
+                                            class="font_size_card text-nowrap text-light w-50 pe-1 bg-danger position-absolute top-0 end-0 rounded-start-pill ">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .039-.063v-.009l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003a.2.2 0 0 0-.039-.064.9.9 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.039.063v.003l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.5.5 0 0 0-.118-.115l-.025-.012L1.5 6.5h-.003a.2.2 0 0 0-.064.039.9.9 0 0 0-.193.27C1.1 7.09 1 7.51 1 8s.1.912.24 1.19c.07.14.14.225.194.271a.2.2 0 0 0 .063.039H1.5l.006-.001.025-.012a.5.5 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115l.025.012.006.001h.003a.2.2 0 0 0 .064-.039.9.9 0 0 0 .193-.27c.14-.28.24-.7.24-1.191s-.1-.912-.24-1.19a.9.9 0 0 0-.194-.271.2.2 0 0 0-.063-.039H14.5l-.006.001-.025.012a.5.5 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557z" />
+                                                </svg>
+                                            </span>
+                                            سینما آنلاین
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\html_play_page\aseman_gharb.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/e3/8c/e38c3f981f5d4e6fb03e3e514b2bc7b4.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold"> آسمان غرب</p>
+                                                <p>1402 / ایران - جنگی</p>
+                                            </div>
+                                        </div>
+                                        <span
+                                            class="font_size_card text-nowrap text-light w-50 pe-1 bg-danger position-absolute top-0 end-0 rounded-start-pill ">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .039-.063v-.009l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003a.2.2 0 0 0-.039-.064.9.9 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.039.063v.003l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.5.5 0 0 0-.118-.115l-.025-.012L1.5 6.5h-.003a.2.2 0 0 0-.064.039.9.9 0 0 0-.193.27C1.1 7.09 1 7.51 1 8s.1.912.24 1.19c.07.14.14.225.194.271a.2.2 0 0 0 .063.039H1.5l.006-.001.025-.012a.5.5 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115l.025.012.006.001h.003a.2.2 0 0 0 .064-.039.9.9 0 0 0 .193-.27c.14-.28.24-.7.24-1.191s-.1-.912-.24-1.19a.9.9 0 0 0-.194-.271.2.2 0 0 0-.063-.039H14.5l-.006.001-.025.012a.5.5 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557z" />
+                                                </svg>
+                                            </span>
+                                            سینما آنلاین
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="width_list_item list_item position-relative rounded-2 overflow-hidden">
+                                    <a href='F:\my rezome\my sites\pro_film\tailwind\html_play_page\abi_roshan.html' class="item card-hover border-0 overflow-hidden">
+                                        <img class=" object-fit-cover w-100 h-100"
+                                            src="https://tv.filmnet.ir/images/8f/f6/8ff6bfa0013644a0be42929f7b239c64.jpg?w=300"
+                                            alt="">
+                                        <div
+                                            class="position-absolute w-100 h-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                            <div
+                                                class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                                <p class="mb-0 fs-6 fw-bold">آبی روشن</p>
+                                                <p>1403 / ایران - درام</p>
+                                            </div>
+                                        </div>
+                                        <span
+                                            class="font_size_card text-nowrap text-light w-50 pe-1 bg-danger position-absolute top-0 end-0 rounded-start-pill ">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .039-.063v-.009l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003a.2.2 0 0 0-.039-.064.9.9 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.039.063v.003l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.5.5 0 0 0-.118-.115l-.025-.012L1.5 6.5h-.003a.2.2 0 0 0-.064.039.9.9 0 0 0-.193.27C1.1 7.09 1 7.51 1 8s.1.912.24 1.19c.07.14.14.225.194.271a.2.2 0 0 0 .063.039H1.5l.006-.001.025-.012a.5.5 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115l.025.012.006.001h.003a.2.2 0 0 0 .064-.039.9.9 0 0 0 .193-.27c.14-.28.24-.7.24-1.191s-.1-.912-.24-1.19a.9.9 0 0 0-.194-.271.2.2 0 0 0-.063-.039H14.5l-.006.001-.025.012a.5.5 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557z" />
+                                                </svg>
+                                            </span>
+                                            سینما آنلاین
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-5 mt-5 d-flex justify-content-between align-items-center">
+                        <h5 class="fw-bold">تازه های پروفیلم</h5>
+                        <a href="" class="btn rounded-pill text-light text-nowrap font_film style">
+                            مشاهده همه
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="row mt-2 d-flex gy-2 flex-row align-items-center">
+                        <div class="col-6 col-lg-2 col-md-4 col-sm-6 overflow-hidden ">
+                            <a href='F:\my rezome\my sites\pro_film\tailwind\serial_pages\pangoan.html' class=" film card card-hover border-0 h-100 overflow-hidden">
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://tv.filmnet.ir/images/e3/0e/e30e99f62dbf47adab79f36c4f6b89d5.jpg?w=200"
+                                    alt="">
+                                <div
+                                    class="position-absolute w-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                    <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                        <p class="mb-0 fs-6 fw-bold">پنگوئن</p>
+                                        <p>(2024)</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4 col-sm-6">
+                            <a target="_blank" href="F:\my rezome\my sites\pro_film\tailwind\serial_pages\gardanzani.html" class="film h-100 card card-hover border-0 overflow-hidden">
+                                <img src="https://tv.filmnet.ir/images/64/bd/64bd6b465409469aba58fb1c0d82be39.jpg?w=200"
+                                    alt="">
+                                <div
+                                    class="position-absolute w-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                    <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                        <p class="mb-0">گردن زنی</p>
+                                        <p>فصل اول</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4 col-sm-6">
+                            <a href="F:\my rezome\my sites\pro_film\tailwind\html_play_page\rebel.html" target="_blank" class="film h-100 card card-hover border-0 position-relative overflow-hidden">
+                                <img src="https://tv.filmnet.ir/images/b5/e2/b5e2155886384e519e5957a4323d21fd.jpg?w=200"
+                                    alt="">
+                                <div
+                                    class="position-absolute w-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                    <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                        <p class="mb-0">ربل</p>
+                                        <p>(2024)</p>
+                                    </div>
+                                </div>
+                                <span
+                                    class="text-nowrap font_size_card bg-danger position-absolute top-0 end-0 rounded-start-pill p-1 ">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                                            <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
+                                            <path
+                                                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
+                                        </svg>
+                                    </span>
+                                    دوبله اختصاصی
+                                </span>
+                            </a>
+
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4 col-sm-6">
+                            <a target="_blank" href="F:\my rezome\my sites\pro_film\tailwind\html_play_page\play1.html" class="film h-100 card card-hover border-0 overflow-hidden">
+                                <img src="https://tv.filmnet.ir/images/b3/ce/b3ce895b94584b4fb32b550cd4dfadb3.jpg?w=200"
+                                    alt="">
+                                <div
+                                    class="position-absolute p-2 w-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                    <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                        <p class="mb-0">زنده به گور شد و زنده ماند</p>
+                                        <p>(2024)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4 col-sm-6">
+                            <a target="_blank" href="F:\my rezome\my sites\pro_film\tailwind\html_play_page\boney_burds.html" class="film h-100 card card-hover position-relative border-0 overflow-hidden">
+                                <img src="https://tv.filmnet.ir/images/63/62/6362594358774540874d8952da673f3a.jpg?w=200"
+                                    alt="">
+                                <div
+                                    class="position-absolute w-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                    <div class="h-100 p-2 d-flex align-items-center justify-content-center flex-column">
+                                        <p class="mb-0">خرس های بونی:پیش به سوی نجات</p>
+                                        <p>(2014)</p>
+                                    </div>
+                                </div>
+                                <span
+                                    class="text-nowrap font_size_card bg-danger position-absolute top-0 end-0 rounded-start-pill p-1 ">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                                            <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
+                                            <path
+                                                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
+                                        </svg>
+                                    </span>
+                                    دوبله اختصاصی
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4 col-sm-6">
+                            <a target="_blank" href="F:\my rezome\my sites\pro_film\tailwind\html_play_page\rease.html" class="film h-100 card card-hover position-relative border-0 overflow-hidden">
+                                <img src="https://tv.filmnet.ir/images/96/7a/967accabef0f4bb2a102ef44f5455cc1.jpg?w=200"
+                                    alt="">
+                                <div
+                                    class="position-absolute w-100 top-0 hover overflow-hidden border_card font fw-bold orang ">
+                                    <div class="h-100 d-flex align-items-center justify-content-center flex-column">
+                                        <p class="mb-0 ">رئیس</p>
+                                        <p>(2024)</p>
+                                    </div>
+                                </div>
+                                <span
+                                    class="text-nowrap font_size_card bg-danger position-absolute top-0 end-0 rounded-start-pill p-1 ">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                                            <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
+                                            <path
+                                                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
+                                        </svg>
+                                    </span>
+                                    دوبله اختصاصی
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
